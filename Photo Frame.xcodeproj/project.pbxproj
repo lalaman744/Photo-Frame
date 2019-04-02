@@ -14,6 +14,7 @@
 		B804631A22419FAC00FCB2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B804631822419FAC00FCB2B0 /* LaunchScreen.storyboard */; };
 		B804632522419FAC00FCB2B0 /* Photo_FrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804632422419FAC00FCB2B0 /* Photo_FrameTests.swift */; };
 		B804633022419FAC00FCB2B0 /* Photo_FrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804632F22419FAC00FCB2B0 /* Photo_FrameUITests.swift */; };
+		B83A675D224ADE20009E8123 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A675C224ADE20009E8123 /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B804632B22419FAC00FCB2B0 /* Photo FrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo FrameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B804632F22419FAC00FCB2B0 /* Photo_FrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_FrameUITests.swift; sourceTree = "<group>"; };
 		B804633122419FAC00FCB2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83A675C224ADE20009E8123 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B804630F22419FAB00FCB2B0 /* AppDelegate.swift */,
 				B804631122419FAB00FCB2B0 /* ViewController.swift */,
+				B83A675C224ADE20009E8123 /* PhotoStore.swift */,
 				B804631322419FAB00FCB2B0 /* Main.storyboard */,
 				B804631622419FAC00FCB2B0 /* Assets.xcassets */,
 				B804631822419FAC00FCB2B0 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B804631222419FAB00FCB2B0 /* ViewController.swift in Sources */,
+				B83A675D224ADE20009E8123 /* PhotoStore.swift in Sources */,
 				B804631022419FAB00FCB2B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
